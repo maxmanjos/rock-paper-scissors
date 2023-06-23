@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgb(98, 98, 235), white);
+  height: 1000px;
+  font-family: "Allan";
+}
+
+button {
+  background-color: lightblue;
+}
+h1 {
+  font-size: 64px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score h2,
+h3 {
+  margin: 8px;
+  font-size: 36px;
+}
+
+button {
+  margin: 6px;
+  padding: 6px;
+  font-size: 28px;
+  border-radius: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.buttons {
+  font-size: 42px;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.score h2 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#print-result {
+  font-size: 32px;
+}
